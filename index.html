@@ -381,13 +381,38 @@ function w3_open() {
 }
 
 // Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
+
+
+
+ 
+
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function() {
+    if(sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+        menu.src = "images/redx.png.png";
+    }
+    else {
+       sideNav.style.right = "-250px"; 
+       menu.src = "images/menu.png.png";
+    }
 }
-  var scroll = new SmoothScroll('a[href*="#"]', {
+
+
+var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true
 });
+ 
 </script>
 
 </body>
