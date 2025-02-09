@@ -380,6 +380,10 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+  var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
 </script>
 
 </body>
