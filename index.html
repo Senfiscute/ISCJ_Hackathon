@@ -78,6 +78,65 @@ text-align: center;
 		h1 {
                      color: white;
 		}
+		        #banner {
+background: url(ISCJ_masjid3.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+.logo {
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+size: 500%;
+}
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+
+}
+.banner-text h1 {
+    font-size: 7rem;
+    font-family: sans-serif;
+}
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn {
+    margin: 70px auto 0;
+
+}
+.banner-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #b7b2ad;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span {
+    width: 100%;
+}
+.banner-btn a:hover {
+    color: #000;
+}
 </style>
 </head>
 <body>
@@ -114,8 +173,17 @@ text-align: center;
 
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-	
-  <div class="banner-text" style="padding:48px">
+
+	<section id="banner">
+
+
+        <div class="banner-text">
+        <h1>Deen Connect</h1>
+        <p>Anas ibn Malik reported: The Messenger of Allah, peace and blessings be upon him, said, “Seeking knowledge is an obligation upon every Muslim.” Source: Sunan Ibn Mājah 224</p>
+        
+        </div>
+        </section>
+<!--   <div class="banner-text" style="padding:48px">
    <h1 class = "titleheader">Deen Connect</h1><br>
     <p><span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
     <span class="w3-large" id = "tophad">Anas ibn Malik reported: The Messenger of Allah, peace and blessings be upon him, said, “Seeking knowledge is an obligation upon every Muslim.”
@@ -124,7 +192,7 @@ Source: Sunan Ibn Mājah 224
 
 </span>
   </p>
-  </div>
+  </div> -->
   
 <!--     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p> -->
   </div> 
