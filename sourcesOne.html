@@ -86,26 +86,6 @@
       text-decoration: underline;
     }
 
-    .zoom-link {
-      display: block;
-      margin-top: 15px;
-      font-size: 18px;
-      color: #e74c3c;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .zoom-link:hover {
-      color: #c0392b;
-      text-decoration: underline;
-    }
-
-    .lesson-time {
-      font-size: 14px;
-      color: #7f8c8d;
-      margin-top: 5px;
-    }
-
     footer {
       text-align: center;
       margin-top: 50px;
@@ -115,6 +95,31 @@
 
     footer p {
       margin: 10px 0;
+    }
+
+    .zoom-link {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 22px;
+      color: #e74c3c;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #e74c3c;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .zoom-link:hover {
+      color: white;
+      background-color: #e74c3c;
+      text-decoration: none;
+    }
+
+    .lesson-time {
+      font-size: 16px;
+      color: #7f8c8d;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -130,46 +135,38 @@
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/BlueQuran.jpg" alt="Beginner Quran Surahs">
         <a href="https://quran.com" target="_blank">Beginner Quran Surahs</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Muhammad_The_Prophet_in_the_Seerah.png" alt="Seerah of the Prophet">
         <a href="https://www.islamicstudies.info/seerah.php" target="_blank">Seerah of the Prophet</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Prophet_Muhammad_PBUH.jpg" alt="Prophet Muhammad (PBUH) Stories">
         <a href="https://www.sunnah.com" target="_blank">Prophet Muhammad (PBUH) Stories</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Islamic_history_-_Iran.jpg" alt="Basic Islamic History">
         <a href="https://www.islamic-history.com" target="_blank">Basic Islamic History</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Salah_Prayer.png" alt="Prayer Tutorial (Salah)">
         <a href="https://www.youtube.com/watch?v=KkK1P7h0rqw" target="_blank">Prayer Tutorial (Salah)</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Wudu_Prayer_illustration.png" alt="Wudu Tutorial">
         <a href="https://www.youtube.com/watch?v=G5cXU7mAPt8" target="_blank">Wudu Tutorial</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
       <div class="resource-card">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Five_pillars_of_islam.jpg" alt="The Five Pillars of Islam">
         <a href="https://www.islamicity.org/5pillars" target="_blank">The Five Pillars of Islam</a>
-        <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
-        <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
       </div>
     </section>
+
+    <!-- Zoom Link and Lesson Time (Appears after all boxes) -->
+    <div class="zoom-section" style="text-align: center;">
+      <a href="https://zoom.us/j/123456789" class="zoom-link" target="_blank">Join Zoom Lesson</a>
+      <div class="lesson-time">Weekly Quran Lesson, Saturday 12PM-1PM</div>
+    </div>
     
     <footer>
       <p>© 2025 Module One - All Rights Reserved</p>
